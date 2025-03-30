@@ -1,0 +1,43 @@
+# Build directories
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Compiled binaries and libraries
+*.o
+*.so
+*.a
+*.lib
+*.dll
+*.exe
+*.out
+
+# Logs and debugging files
+*.log
+*.dmp
+
+# Temporary files
+*.swp
+*.bak
+*.tmp
+
+# Test and coverage files
+Testing/
+*.gcda
+*.gcno
+*.gcov
+
+# Dependencies (optional, if using an external dependency manager)
+/deps/
+/vcpkg_installed/
+/conanbuildinfo.cmake
+/conanbuildinfo.txt
+/conan.lock
+
